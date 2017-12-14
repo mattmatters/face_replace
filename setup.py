@@ -1,12 +1,13 @@
 from distutils.core import setup
 
 setup(
-    name='FaceReplace',
+    name='face_replace',
     version='0.1.0',
     description='Simple facial recognition and face replacement',
     author='Matt Lewis',
     author_email='domattthings@gmail.com',
-    url='',
+    url='https://github.com/mattmatters/face_replace',
+    download_url = 'https://github.com/mattmatters/face_replace/archive/0.1.tar.gz', # I'll explain this in a second
     packages=['face_replace'],
     python_requires='>=3',
     install_requires=[
