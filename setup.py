@@ -7,7 +7,7 @@ setup(
     author='Matt Lewis',
     author_email='domattthings@gmail.com',
     url='https://github.com/mattmatters/face_replace',
-    download_url = 'https://github.com/mattmatters/face_replace/archive/0.1.tar.gz', # I'll explain this in a second
+    download_url = 'https://github.com/mattmatters/face_replace/archive/0.1.3.tar.gz',
     packages=['face_replace'],
     python_requires='>=3',
     install_requires=[
