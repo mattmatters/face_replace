@@ -16,7 +16,6 @@ class Finder:
     """Uses haar cascade classifier to find all faces and their general orientation"""
     def __init__(self, img):
         self.__gray_img = cv2.imdecode(numpy.fromstring(img, numpy.uint8), cv2.IMREAD_GRAYSCALE)
-        print(self.__gray_img)
         rows, cols = numpy.shape(self.__gray_img)
 
         # Size and Coord properties(x, y)
