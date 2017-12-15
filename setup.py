@@ -1,18 +1,18 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='face_replace',
-    version='0.1.0',
+    version='0.1.4',
     description='Simple facial recognition and face replacement',
     author='Matt Lewis',
     author_email='domattthings@gmail.com',
+    license='MIT',
     url='https://github.com/mattmatters/face_replace',
-    download_url='https://github.com/mattmatters/face_replace/archive/0.1.3.tar.gz',
-    packages=['face_replace'],
-    python_requires='>=3',
+    download_url='https://github.com/mattmatters/face_replace/archive/0.1.4.tar.gz',
+    py_modules=['face_replace'],
     install_requires=[
         'numpy',
         'opencv-python',
-        'pillow'
-    ]
+        'pillow',
+    ],
 )
