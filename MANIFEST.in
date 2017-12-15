@@ -1,1 +1,2 @@
-include paths/*
+# Pretrained models
+include face_replace/paths/ *

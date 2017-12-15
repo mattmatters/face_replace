@@ -9,8 +9,8 @@ from face_replace import FACE_TYPES, Face
 import os
 
 DIR = os.path.dirname(__file__)
-FRONT_PATH = DIR + '/../paths/haarcascade_frontalface_alt.xml'
-PROFILE_PATH = DIR + '/../paths/haarcascade_profileface.xml'
+FRONT_PATH = DIR + '/paths/haarcascade_frontalface_alt.xml'
+PROFILE_PATH = DIR + '/paths/haarcascade_profileface.xml'
 
 class Finder:
     """Uses haar cascade classifier to find all faces and their general orientation"""
